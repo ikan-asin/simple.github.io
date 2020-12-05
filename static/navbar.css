@@ -1,0 +1,27 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	padding: 0 8px;
+	text-decoration: none;
+	display: inline;
+	font-size: 25px;
+}
+
+a{
+	color: #2b4691;
+	text-decoration: none;
+}
+
+a:active{
+	color: #2b3d6d;
+}
