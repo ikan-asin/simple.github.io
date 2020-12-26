@@ -1,9 +1,10 @@
-input,textarea{
+input, textarea{
 	width: 100%;
 	margin: 5px 0;
 	padding: 7px;
 	font-size: 18px;
 	resize: vertical;
+	text-align: left;
 	border: 3px solid gray;
 	transition-duration: 0.2s;
 }
