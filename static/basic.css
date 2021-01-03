@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 *{
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	border-radius: 5px;
 	line-height: 2;
 	box-sizing: border-box;
@@ -9,21 +11,10 @@
 
 h2{
 	text-align: center;
+	font-size: 27px;
 }
 
 p{
 	font-size: 20px;
 	text-align: center;
-}
-
-.center{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
-}
-
-.box{
-	padding: 0 30px 20px;
-	background: #e2e2e2;
 }

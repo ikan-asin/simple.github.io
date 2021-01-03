@@ -1,11 +1,11 @@
 input, textarea{
-	width: 100%;
-	margin: 5px 0;
-	padding: 7px;
-	font-size: 18px;
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px 12px;
+	font-size: 20px;
 	resize: vertical;
 	text-align: left;
-	border: 3px solid gray;
+	border: 3px solid #ccc;
 	transition-duration: 0.2s;
 }
 
@@ -18,12 +18,12 @@ textarea:focus{
 }
 
 button{
-	width: 100%;
-	margin: 2px;
-	padding: 7px;
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px 12px;
 	text-align: center;
-	font-size: 18px;
-	border: 3px solid black;
+	font-size: 20px;
+	border: 3px solid #000;
 	background: white;
 	transition-duration: 0.2s;
 }
@@ -31,4 +31,14 @@ button{
 button:hover{
 	background: black;
 	color: white;
+}
+
+@media only screen and (max-width: 500px){
+	input, textarea{
+		width: 80%;
+	}
+
+	button{
+		width: 80%;
+	}
 }
