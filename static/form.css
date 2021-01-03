@@ -36,9 +36,11 @@ button:hover{
 @media only screen and (max-width: 500px){
 	input, textarea{
 		width: 80%;
+		font-size: 17px;
 	}
 
 	button{
 		width: 80%;
+		font-size: 17px;
 	}
 }
